@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/action">
+      <div>
+        <label for="uname">user name: </label>
+
+        <input
+          type="text"
+          id="uname"
+          name="uname"
+          placeholder="enter the user name"
+        />
+      </div>
+
+      <div>
+        <label for="uname">password: </label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="enter the password"
+        />
+      </div>
+      <hr>
+      <div>
+        <h5>Gender</h5>
+
+        <input type="radio" id="m" name="gen" value="m" />
+        <label for="m">mail </label>
+
+        <input type="radio" id="f" name="gen" value="f" />
+        <label for="f">femail </label>
+      </div>
+      <hr>
+      <div>
+        <input type="checkbox" id="18" name="age" value="18" />
+        <label for="18"> 18</label>
+        <input type="checkbox" id="20" name="age" value="20" />
+        <label for="20"> 20</label>
+        <input type="checkbox" id="22" name="age" value="22" />
+        <label for="22"> 22</label>
+      </div>
+      <hr>
+      <div>
+        <select name="gender" id="gender">
+          <option selected>select</option>
+          <option value="m" >m</option>
+          <option value="f">f</option>
+          <option value="oth">oth</option>
+  
+        </select>
+      </div>
+      <div>
+        <input 
+        type="range" 
+        min="0" 
+        max="100" 
+        id="range" 
+        name="volume" 
+        step="1" 
+        value="80">
+        <label for="range">volume</label>
+      </div>
+      <div>
+        <label for="feedback"> your feedback hear</label>
+      
+        <textarea name="feedback" id="tarea" cols="10" rows="2" placeholder="feedback hear"></textarea>
+      </div>
+      
+
+
+
+      <button>submit</button>
+    </form>
+   
+    <hr />
+    <!-- <form action="https://www.google.com/search" >
+      <input type="search" placeholder="enter the text" id="serch" name="q">
+      <button>search</button>
+    </form> -->
+    <hr />
+    <!-- <form action="https://www.youtube.com/results" >
+      <input type="search" placeholder="enter the text" id="serch" name="search_query">
+      <button>search</button>
+    </form> -->
+  </body>
+</html>
