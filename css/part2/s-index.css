@@ -1,0 +1,19 @@
+*{
+      font-family: 'Courier New', Courier, monospace;
+}
+h3{
+      color: chocolate;
+
+}
+h1{
+      color: #b92b27;
+}
+#login{
+      color: rgb(255, 253, 138);
+      background-color: blueviolet;
+      
+}
+.upo{
+      background-color: aqua;
+      color: #b92b27;
+}
