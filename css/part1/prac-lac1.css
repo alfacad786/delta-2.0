@@ -23,3 +23,21 @@ h5{
       color: rgb(0,0,255);
       color: #0000ff;
 }
+div{
+      width:300px;
+      height: auto;
+      border: solid;
+      border-color: rgb(235, 235, 235);
+      background-color: white;
+      text-align: center;
+      font-size: 55px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      text-decoration: teal double underline;
+      color: #ffa511;
+      font-weight: 900;
+      letter-spacing: 2px;
+      line-height: 1.5x;
+     
+      
+}
