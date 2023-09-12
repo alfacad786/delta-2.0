@@ -2,7 +2,7 @@
       font-family: 'Courier New', Courier, monospace;
 }
 h3{
-      color: chocolate;
+      color: rgb(161, 140, 124);
 
 }
 h1{
@@ -15,5 +15,40 @@ h1{
 }
 .upo{
       background-color: aqua;
-      color: #b92b27;
+      color: #3127b9;
+}
+p a{
+      color: rgb(197, 10, 10);
+      text-decoration: none;
+      background-color: rgb(195, 248, 197);
+}
+hr+p{
+      color: #278bb9;
+}
+.upo+button{
+      background-color: #3127b9;
+      color: aliceblue;
+}
+div>input{
+      background-color: rgb(75, 100, 75);
+      color: antiquewhite;
+}
+::placeholder{
+      color: rgb(219, 200, 200);
+}
+button:hover{
+      background-color: chocolate;
+}
+h3:hover{
+      color: blue;
+}
+input[type="checkbox"]:checked+label{
+      color: #b92727;
+}
+button:active{
+      background-color: #199909;
+      color: azure;
+}
+p:nth-of-type(2n-1){
+      background-color: #b92727;
 }

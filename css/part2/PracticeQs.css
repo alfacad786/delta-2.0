@@ -11,3 +11,24 @@ h1{
 .userbtn{
       background-color: aqua;
 }
+#myid p{
+      color: green;
+}
+#myid p:hover{
+      color: rgb(128, 26, 0);
+}
+input:hover{
+      color: white;
+      background-color: black;
+}
+button:active{
+      background-color: blue;
+      color: rgb(224, 241, 255);
+      font-weight: 900;
+}
+input[type="checkbox"]:checked+label{
+      color: rgb(255, 0, 0);
+      font-weight: 900;
+}
+
+
