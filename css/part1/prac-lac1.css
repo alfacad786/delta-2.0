@@ -1,0 +1,25 @@
+h2{
+      color: orange;
+
+}
+button{
+      background-color: blue;
+      color: white;
+}
+p{
+      color: white;
+      background-color: black;
+}
+h3{
+      color: #ffffff;
+      background-color: black;
+}
+h4{
+      color: rgb(255,255,0);
+      color: #ffff00;
+      background-color: black;
+}
+h5{
+      color: rgb(0,0,255);
+      color: #0000ff;
+}

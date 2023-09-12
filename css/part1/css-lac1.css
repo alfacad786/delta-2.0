@@ -1,0 +1,27 @@
+
+h2{
+      color: blue;
+      background-color: aquamarine;
+}
+input{
+      background-color: rgb(184, 180, 180);
+}
+label{
+      color: blue;
+}
+h3{
+      color: #ff00ff;
+      text-align: center;
+      text-decoration: dotted underline;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p{
+      font-weight: 700;
+}
+h5{
+      line-height: 3;
+      letter-spacing:1.5px;
+      text-align: justify;
+      
+}
