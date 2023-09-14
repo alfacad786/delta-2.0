@@ -1,0 +1,15 @@
+H1{
+      background-color: aqua;
+}
+div{
+      background-color: aquamarine;
+}
+button{
+      background-color: inherit;
+}
+button:hover{
+      background-color:rebeccapurple;
+}
+input{
+      background-color: inherit;
+}
