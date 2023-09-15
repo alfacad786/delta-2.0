@@ -1,10 +1,14 @@
-.outerdiv {
- 
+
+body{
+  opacity: 0.2;
+}
+.outerdiv { 
   height: 100px;
   width: 290px;
   border: 2px solid black;
   margin: 10px;  
   background-color: rgb(119, 107, 107); 
+  
 }
 .innerdiv{
   height: 40px;
@@ -25,4 +29,33 @@
 #c {  
   background-color: green; 
 }
+#set{
+  height: 150px;
+  width: 30px;  
+  background-color: grey;
+  border: 5px dotted black;
+  margin-top: 20px;
+  margin-right: 1em;  /* 1 em= 16px because default body font-size is 16px */
+  margin-bottom: 40px;
+  margin-left: 2em; /* 2 em= 32px because default body font-size is 16px */
+  padding: 1em;
 
+}
+.innerdiv1{
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgba(119, 107, 107, 0.719);
+  display: inline-block; 
+  margin: 10px;  
+  padding: 15px;
+  opacity: .2;
+}
+#list{display: inline-flex;
+  border: 5px solid rgb(119, 107, 107);
+}
+.course{ 
+  /* border: 2px solid green; */
+  margin: 15px; 
+}
