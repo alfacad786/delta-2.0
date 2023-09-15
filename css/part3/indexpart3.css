@@ -5,7 +5,7 @@ h1{
   /* border-color: rgb(61, 61, 61); */
  margin: 0;
 }
-div{
+.div{
   background-color: #e6ff09;
   width: 400px;
   height: 400px;
@@ -30,4 +30,39 @@ div{
 }
 button{
   padding: 10px 20px 30px;
+}
+
+#A {
+ 
+  height: 100px;
+  width: 290px;
+  border: 2px solid black;
+  margin: 10px;  
+  background-color: rgb(119, 107, 107);
+  
+ 
+ 
+}
+#a { 
+  background-color: red;
+ 
+}
+#b { 
+  background-color: yellow;
+  
+}
+#c {  
+  background-color: green;
+ 
+}
+.inerdiv{
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block; 
+  margin: 10px;  
+  padding: 15px;
+
 }
