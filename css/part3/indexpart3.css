@@ -38,22 +38,22 @@ button{
   width: 290px;
   border: 2px solid black;
   margin: 10px;  
-  background-color: rgb(119, 107, 107);
-  
- 
- 
+  background-color: rgb(119, 107, 107); 
+  box-shadow: 8px 8px 8px ;
 }
 #a { 
   background-color: red;
- 
+  /* transition: 2s; */
 }
 #b { 
   background-color: yellow;
-  
+  transition: 2s;  
 }
 #c {  
   background-color: green;
- 
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 2s;
 }
 .inerdiv{
   height: 40px;
@@ -64,5 +64,94 @@ button{
   display: inline-block; 
   margin: 10px;  
   padding: 15px;
+
+}
+#G {
+ 
+  height: 100px;
+  width: 290px;
+  border: 2px solid black;
+  margin: 10px;  
+  background-color: rgb(119, 107, 107); 
+}
+#g1 { 
+  background-color: red;
+  /* transition: 2s; */
+}
+
+#g1:hover{
+  background-color: rgb(252, 255, 53); 
+  border-color: rgb(74, 255, 19);
+  border-radius: 5px;
+  margin-left: 198px;
+  box-shadow: 5px 5px 4px rgb(0, 0, 0);  
+  
+}
+.div1{
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 20%;
+  background-color: rgb(142, 110, 155);
+  display: inline-block;
+  margin: 20px; 
+  margin-top: 40px; 
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+ 
+
+}
+.div1:nth-of-type(2n){
+  background-color: #75dab1;
+}
+.div1:nth-of-type(3n){
+  background-color: #c8da75;
+}
+#d{
+  transform: rotate(45deg);
+}
+#e{
+  transform:scale(.5,1);
+}
+#f{
+  transform: translate(0,-30px);
+}
+#g{
+  transform: skew(10deg,10deg);
+}
+#h{
+  transform: rotate(20deg); scale: 0.5;  translate:0px -30px;
+}
+.div-image{
+  /* background-color: #e6ff09; */
+  width: 200px;
+  height: 200px;  
+  border-left:  5px solid ;  
+  border-top:  8px solid ;
+  border-right:  20px solid  ;
+  border-bottom:  20px solid ;
+  border-color: rgb(172, 172, 172);
+  border-radius: 25px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  /* text-align: center; */
+  padding: 20px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-image: url("/css/part3/pexels-realtoughcandycom-11035386.jpg");
+  background-size: cover;
+  box-shadow: 4px 4px 9px black;
+  transition: 1s;
+ 
+}
+.div-image:hover{
+  /* border-color: rgb(150, 187, 64); */
+  color: rgb(255, 8, 234);
+  box-shadow: 5px 20px 15px black;
 
 }

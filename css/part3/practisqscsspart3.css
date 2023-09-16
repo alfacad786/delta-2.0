@@ -1,6 +1,7 @@
 
 body{
-  opacity: 0.2;
+  opacity: .9;
+
 }
 .outerdiv { 
   height: 100px;
@@ -21,14 +22,15 @@ body{
   padding: 15px;
 }
 #a { 
-  background-color: red; 
+  background-color: red;  
 }
 #b { 
-  background-color: yellow;  
+  background-color: yellow;   
 }
 #c {  
-  background-color: green; 
+  background-color: green;  
 }
+
 #set{
   height: 150px;
   width: 30px;  
