@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inlinediv</title>
+    <style>
+      .outerdiv {
+        height: 50px;
+        width: 158px;
+        background-color: rgb(119, 107, 107);
+        /* display: inline-flex; */
+      }
+      .innerdiv {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: red;
+        margin: 5px;
+        display: inline-block;                      
+      }
+    </style>
+  </head>
+  <body>
+    <div id="A" class="outerdiv">
+      <div id="a" class="innerdiv"></div>
+      <div id="b" class="innerdiv"></div>
+      <div id="c" class="innerdiv"></div>
+      <!-- Jab aap inner divs ko ek hi line mein likhte hain (<div class="innerdiv"></div><div class="innerdiv"></div>), to HTML ke whitespace characters (newlines, spaces) ka koi bhi gap nahi hota, aur inner divs ek saath dikhate hain  or jab innerdiv ko alag line me likh ne per 
+        <div class="innerdiv"></div>
+        <div class="innerdiv"></div>
+        <div class="innerdiv"></div>
+        is trha to "HTML ke whitespace characters (newlines, spaces)" ki vaje se har inner div ke bich me space creat hoti hai or isliya inner div ki width 40 ke hisah se teeno div=40+40+40=120 hoti hai or outer div ki width 120 hone ke bavjud tisra inner dive outer div ke bahar nikal jata hai 
+       -->
+       <!-- 2-display: inline-flex kar ne per complet aata hai -->
+    </div>
+  </body>
+</html>
