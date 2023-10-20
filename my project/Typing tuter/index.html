@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rendomcolor & image</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="box" class="box">
+        <div type="button" id="button" class="box2">
+          <h2>START TIPING</h2>
+        </div>
+        <div id="div2" class="box2">
+          <div id="D1">
+            <p id="p"></p>
+          </div>
+          <div id="D2">
+            <textarea
+              name="typing"
+              id="textarea"
+              cols="100"
+              rows="8"
+              placeholder="type hear"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="app.js"></script> -->
+    <script>
+      let body = document.querySelector("body");
+      let main = document.getElementById("main");
+      let box = document.getElementById("box");
+      let btn = document.getElementById("button");
+      let div2 = document.getElementById("div2");
+      let D1 = document.getElementById("D1");
+      let p = document.getElementById("p");
+      let D2 = document.getElementById("D2");
+      let textarea = document.getElementById("textarea");
+
+      let para = [
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus nostrum minus doloribus fugiat commodi quidem assumenda incidunt ducimus enim alias, sit dolorem, voluptatibus eligendi laboriosam ut in deserunt a nullaLorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus nostrum minus doloribus fugiat commodi quidem assumenda incidunt ducimus enim alias, sit dolorem, voluptatibus eligendi laboriosam ut in deserunt a nullaLorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus nostrum minus doloribus fugiat commodi quidem assumenda incidunt ducimus enim alias, sit dolorem, voluptatibus eligendi laboriosam ut in deserunt a nulla",
+      ];
+
+      function textgen(params) {
+        // Math.floor(Math.random() * (end - start) + start);
+        let arr1 = Math.floor(Math.random() * 5);
+        let arr2 = Math.floor(Math.random() * (10 - 4) + 4);
+        let tx = para[0].slice(arr1, arr2);
+
+        return (p.innerText = tx), (textarea.value="");
+      }
+      btn.addEventListener("click", textgen);
+
+      function textmatch(params) {
+        let a = this.value;
+        // let t = [];
+        // t.push(a);
+        // console.log(t);
+        // let b = t[0];
+        let b = p.innerText;
+
+        console.log(b);
+
+        let t = [];
+        t.push(a);
+      
+
+        console.log(t[0]);
+
+        if (t[0].length == b.length) {
+          textgen();
+        }
+
+        if (b.startsWith(a)) {
+          console.log("good");
+        } else {
+          alert("wrong");      
+                   
+        }
+        
+      }
+      textarea.addEventListener("input", textmatch);
+     
+
+
+      
+    </script>
+  </body>
+</html>

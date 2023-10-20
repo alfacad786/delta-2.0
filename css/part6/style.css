@@ -4,6 +4,7 @@
   border-radius: 25px;
   padding: 10px;
   margin: 10px;
+
 }
 
 img {
@@ -26,5 +27,6 @@ h4 {
 
 #pets {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

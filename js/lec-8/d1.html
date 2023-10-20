@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    patterne
+    <br />
+    <br />
+    <script>
+      let n = 4;
+      let m = 6;
+      let g = ["1", "2", "3", "4"];
+      let j = ["8", "9", "10", "11"];
+      let s = g + j;
+      const fam = {
+        Asif: ["payment= 10000", "<br> date= 12/7/2023", "<br> method= cash"],
+        Rizwana: [
+          "payment= 1000",
+          "<br> date= 15 / 7 / 2023",
+          "<br> method= cash",
+        ],
+        Ayan: ["payment= 5000", "<br> date= 19 / 7 / 2023", "<br>method= cash"],
+        Aaliya: [
+          "payment= 3000",
+          "<br> date= 25 / 7 / 2023",
+          "<br> method= cash",
+        ],
+      };
+      // let{Aaliya,Asif,Rizwana,Ayan}= fam;
+      // document.write(Asif);
+
+      // fam.Aaliya.forEach(element => {
+      //   document.write("<br>"+element);
+      // });
+      //   let i = [1, 2, 3, 4];
+      // let dub=i.map((el)=>{return "<br>"+(el)*2});
+      // document.write(dub);
+
+      document.write("<br>");
+
+      // let k = [1, 2, 3, 4,5,6,7,8,9];
+      // let even=k.filter((el)=> ( el % 2 == 0));
+      // document.write( "<br>" + even);
+      // let odd=k.filter((el)=> ( el % 2 !== 0));
+      // document.write( "<br>" + odd);
+      // let v = [1,  3,5,7,9];
+      // let ev=v.every((el)=> ( el % 2 !== 0));
+      // document.write( "<br>" + ev);
+      function pfam() {
+        for (i = 0; i <= fam.Asif.length - 1; i++) {
+          document.write(fam.Asif[i]);
+
+          document.write("<br>");
+        }
+        for (i = 0; i <= fam.Aaliya.length - 1; i++) {
+          document.write(fam.Aaliya[i]);
+
+          document.write("<br>");
+        }
+        for (i = 0; i <= fam.Ayan.length - 1; i++) {
+          document.write(fam.Ayan[i]);
+
+          document.write("<br>");
+        }
+        for (i = 0; i <= fam.Rizwana.length - 1; i++) {
+          document.write(fam.Rizwana[i]);
+
+          document.write("<br>");
+        }
+      }
+      // setTimeout (() => { pfam(); }, 4000);
+
+      // document.write("<br>"+"****************");
+
+      // document.write("<br>"+"****************");
+
+      //   document.write("<br>");
+      //   let i = [1, 2, 3, 4];
+      // function total(){ i.forEach((el)=> {
+      //     document.write(el);
+      //     document.write("<br>");
+      //   })};
+      //   total();
+      // let start=parseInt(prompt("enter statr number"));
+      // let end =parseInt(prompt("enter end number"));
+
+      // function ren (start, end) {
+      //  let ren=(Math.floor(Math.random()*(start-end)+end)+start);
+      //  document.write(ren +",");
+      //   // document.write("<br>");
+
+      // }
+      let min = parseInt(prompt("enter statr number"));
+      let max = parseInt((prompt("enter end number"))-min+1);
+      
+      function ren() {
+        // min = Math.ceil(min);
+        // max = Math.floor(max);
+        return document.write(Math.floor(Math.random() * (max) + min) +",");  // The maximum is inclusive and the minimum is inclusive
+      }
+
+      setInterval(() => {
+       ren();
+      }, 500);
+
+      // setTimeout(() => {
+      //   ren();
+      // }, 2000);
+
+      // setInterval(() => {
+      //   document.write("<br>"+num);
+      // }, 3000);
+
+      // let ad = prompt("Insert the task");
+
+      // if (ad == "add") {
+      //   const name = prompt("Insert the name");
+      //   const payment = prompt("Insert payment amount");
+      //   const date = prompt("Insert date (e.g., 12/7/2023)");
+      //   const method = prompt("Insert payment method");
+
+      //   // Create a new entry for the specified name
+      //   fam[name] = [`payment= ${payment}`,`<br> date= ${date}`,`<br> method= ${method}`,];
+
+      //   function a() {document.write(name +"<br>" +(fam[name] = [`payment= ${payment}`,`<br> date= ${date}`,`<br> method= ${method}`,]));}
+
+      //   a();
+
+      // document.write(name+"<br>"+(fam[name] = [`payment= ${payment}`,`<br> date= ${date}`,`<br> method= ${method}`,]));
+      // } else {
+      //   document.write("not new antry");
+      // }
+      // document.write("<br>");
+      // setInterval((n) => {
+      //   document.write(n++)
+      // }, 2000);
+      // document.write("<br>");
+      // let fa={...i};
+      // let{Asif:d,}=fam;
+
+      // // name=[("payment="+prompt("insert the amount"))];
+      // // // fam.name.push("date="+prompt("insert the date dd/mm/yyyy"));
+      // delete fam.prompt("delet key");
+
+      // document.write(fam);i
+
+      // for (i = 1; i<= fam; i++) {
+
+      //    document.write(fam);
+
+      //    document.write("<br>")
+      //  }
+    </script>
+  </body>
+</html>
